@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/amazon-clone/static/css/main.295364a0.css",
+    "main.js": "/amazon-clone/static/js/main.a598ae4a.js",
+    "static/media/bannerImgTen.jpg": "/amazon-clone/static/media/bannerImgTen.1d34083ad175be7d7460.jpg",
+    "static/media/bannerImgSeven.jpg": "/amazon-clone/static/media/bannerImgSeven.731aefc65b4dd1be28f8.jpg",
+    "static/media/bannerImgTwo.jpg": "/amazon-clone/static/media/bannerImgTwo.bc1bdb910ead16c65197.jpg",
+    "static/media/bannerImgFour.jpg": "/amazon-clone/static/media/bannerImgFour.8f7fc6b56e74dba2b6f9.jpg",
+    "static/media/bannerImgOne.jpg": "/amazon-clone/static/media/bannerImgOne.efb3d39101f7ef77d616.jpg",
+    "static/media/bannerImgThree.jpg": "/amazon-clone/static/media/bannerImgThree.c80809bb40bee5c34372.jpg",
+    "static/media/bannerImgTwelve.jpg": "/amazon-clone/static/media/bannerImgTwelve.a2fbf94828c205e6b974.jpg",
+    "static/media/bannerImgFive.jpg": "/amazon-clone/static/media/bannerImgFive.aa945e25375bfdee385f.jpg",
+    "static/media/bannerImgEight.jpg": "/amazon-clone/static/media/bannerImgEight.6c86379513fb7017978b.jpg",
+    "static/media/bannerImgEleven.jpg": "/amazon-clone/static/media/bannerImgEleven.b0845a5ac8b8ca347f7d.jpg",
+    "static/media/bannerImgNine.jpg": "/amazon-clone/static/media/bannerImgNine.dde65e9f3aea9d48eb08.jpg",
+    "static/media/bannerImgSix.jpg": "/amazon-clone/static/media/bannerImgSix.ad15ff3fa285f194e43e.jpg",
+    "static/media/logo.png": "/amazon-clone/static/media/logo.1c9be0b254d3ff1dc9e9.png",
+    "static/media/slick.svg": "/amazon-clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/amazon-clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/amazon-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/amazon-clone/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/amazon-clone/index.html",
+    "main.295364a0.css.map": "/amazon-clone/static/css/main.295364a0.css.map",
+    "main.a598ae4a.js.map": "/amazon-clone/static/js/main.a598ae4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.295364a0.css",
+    "static/js/main.a598ae4a.js"
+  ]
+}
