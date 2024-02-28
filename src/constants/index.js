@@ -28,3 +28,45 @@ export const allItems = [
     { _id: "127", title: "Video Games" },
     { _id: "128", title: "Women's Fashion" },
 ];
+export const footerBottomItem = [
+    {
+        _id: 1001,
+        title: "AbeBooks",
+        des:"Books, art & collectibles",
+    },
+    {
+        _id: 1002,
+        title: "Shopbop",
+        des:"Designer Fashion Brands",
+    },
+    {
+        _id: 1003,
+        title: "Amazon Business",
+        des:"Everything For Your Business",
+    },
+    {
+        _id: 1004,
+        title: "Prime Now",
+        des:"2-Hour Delivery on Everyday Items",
+    },
+    {
+        _id: 1005,
+        title: "IMDb",
+        des:"Movies, TV & Celebrities",
+    },
+    {
+        _id: 1006,
+        title: "Amazon Prime Music",
+        des:"100 million songs, ad-free Over 15 million podcast episodes",
+    },
+    {
+        _id: 1007,
+        title: "Amazon Web Services",
+        des:"Scalable Cloud Computing Services",
+    },
+    {
+        _id: 1007,
+        title: "Audible",
+        des:"Download Audio Books",
+    },
+]

@@ -31,7 +31,7 @@ const HeaderBottom = () => {
             {/* ============= sideNav Start Here ============= */}
             {
                 sidebar && (
-                    <div className='w-full h-screen text-black fixed top-0 left-0 bg-amazon_blue bg-opacity-55'>
+                    <div className='w-full h-screen text-black fixed top-0 left-0 bg-amazon_blue bg-opacity-55 z-50'>
                         <div className='w-full h-full relative'>
                             <motion.div ref={ref} initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .2 }} className='w-[350px] h-full bg-white border-gray-500'>
                                 <div className='w-full bg-amazon_light text-white py-2 px-6 flex items-center gap-4 cursor-pointer'>
