@@ -33,7 +33,7 @@ const HeaderBottom = () => {
                 sidebar && (
                     <div className='w-full h-screen text-black fixed top-0 left-0 bg-amazon_blue bg-opacity-55 z-50'>
                         <div className='w-full h-full relative'>
-                            <motion.div ref={ref} initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .2 }} className='w-[60%] mdl:w-[300px] h-full bg-white border-gray-500'>
+                            <motion.div ref={ref} initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .2 }} className='w-[60%] mdl:w-[350px] h-full bg-white border-gray-500'>
                                 <div className='w-full bg-amazon_light text-white py-2 px-6 flex items-center gap-4 cursor-pointer'>
                                     <AccountCircleIcon />
                                     <h1 className='font-bold font-titleFont text-lg tracking-wide'>Hello, sign in</h1>
@@ -66,7 +66,7 @@ const HeaderBottom = () => {
                                         />
                                     </ul>
                                 </div>
-                                <span onClick={() => setSidebar(false)} className='cursor-pointer absolute top-0 left-[62%] md:left-[360px] w-10 h-10 text-white flex items-center justify-center'><CloseIcon /></span>
+                                <span onClick={() => setSidebar(false)} className='cursor-pointer absolute top-0 left-[62%] md:left-[355px] w-10 h-10 text-white flex items-center justify-center'><CloseIcon /></span>
                             </motion.div>
                         </div>
                     </div>
