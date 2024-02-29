@@ -10,9 +10,9 @@ const FooterMiddle = () => {
             {/* ============= Top Start Here ============= */}
             <div className='w-full border-b-[1px] border-gray-500 py-10'>
                 <div className='max-w-5xl mx-auto text-gray-300'>
-                    <div className='w-full grid grid-cols-4 place-items-baseline'>
+                    <div className='w-full sm:text-xs grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 lgl:grid-cols-4 place-items-baseline px-5 gap-6'>
                         <div>
-                            <h3 className='font-bodyFont text-white text-base font-bold mb-3 tracking-wide'>Get to Know Us</h3>
+                            <h3 className='font-bodyFont sm:text-xs sml:text-xs text-white text-base font-bold mb-3 tracking-wide'>Get to Know Us</h3>
                             <ul className='flex flex-col gap-2 font-bodyFont tracking-wide text-sm text-white'>
                                 <li className='footerLink'>About Us</li>
                                 <li className='footerLink'>Careers</li>
@@ -21,7 +21,7 @@ const FooterMiddle = () => {
                             </ul>
                         </div>
                         <div>
-                            <h3 className='font-bodyFont text-white text-base font-bold mb-3 tracking-wide'>Connect with Us</h3>
+                            <h3 className='font-bodyFont sm:text-xs sml:text-xs text-white text-base font-bold mb-3 tracking-wide'>Connect with Us</h3>
                             <ul className='flex flex-col gap-2 font-bodyFont tracking-wide text-sm text-white'>
                                 <li className='footerLink'>Facebook</li>
                                 <li className='footerLink'>Twitter</li>
@@ -29,7 +29,7 @@ const FooterMiddle = () => {
                             </ul>
                         </div>
                         <div>
-                            <h3 className='font-bodyFont text-white text-base font-bold mb-3 tracking-wide'>Make Money with Us</h3>
+                            <h3 className='font-bodyFont sm:text-xs sml:text-xs text-white text-base font-bold mb-3 tracking-wide'>Make Money with Us</h3>
                             <ul className='flex flex-col gap-2 font-bodyFont tracking-wide text-sm text-white'>
                                 <li className='footerLink'>Sell on Amazon</li>
                                 <li className='footerLink'>Sell under Amazon Accelerator</li>
@@ -42,7 +42,7 @@ const FooterMiddle = () => {
                             </ul>
                         </div>
                         <div>
-                            <h3 className='font-bodyFont text-white text-base font-bold mb-3 tracking-wide'>Let Us Help You</h3>
+                            <h3 className='font-bodyFont sm:text-xs sml:text-xs text-white text-base font-bold mb-3 tracking-wide'>Let Us Help You</h3>
                             <ul className='flex flex-col gap-2 font-bodyFont tracking-wide text-sm text-white'>
                                 <li className='footerLink'>COVID-19 and Amazon</li>
                                 <li className='footerLink'>Your Account</li>
@@ -57,7 +57,7 @@ const FooterMiddle = () => {
             </div>
             {/* ============= Top End Here ============= */}
             {/* ============= Botton Start Here ============= */}
-            <div className='w-full flex gap-10 items-center justify-center py-6'>
+            <div className='w-full flex gap-3 xl:gap-10 items-center justify-center py-6'>
                 <div>
                     <img className='w-20 pt-3' src={logo} alt="amazon.in"></img>
                 </div>
@@ -65,7 +65,7 @@ const FooterMiddle = () => {
                     <p className='text-xs flex gap-1 items-center justify-center border border-gray-500 rounded-[1px] font-bodyFont tracking-wide hover:border-amazon_yellow cursor-pointer font-medium duration-200 px-2 py-1'><span className='text-xs text-gray-400'><LanguageIcon /></span> English <span className='text-xs text-gray-400'><ArrowDropDownOutlinedIcon /></span></p>
                 </div>
                 <div className='flex gap-1 items-center justify-center border border-gray-500 hover:border-amazon_yellow cursor-pointer duration-200 px-2 py-1 rounded-[1px]'>
-                    <img className='w-6' src={indFlag} alt='INDIA' /><p className='text-xs font-bodyFont tracking-wide'>{" "}INDIA <span className='text-xs text-gray-400'><ArrowDropDownOutlinedIcon /></span></p>
+                    <img className='w-6' src={indFlag} alt='INDIA' /><p className='text-xs font-bodyFont tracking-wide mt-1'>{" "}INDIA <span className='text-xs text-gray-400'><ArrowDropDownOutlinedIcon /></span></p>
                 </div>
             </div>
             {/* ============= Botton End Here ============= */}

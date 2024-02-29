@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Banner = () => {
     const NextArrow = ({ onClick }) => {
         return (
-            <div className="absolute top-1/2 right-6 transform -translate-y-1/2 bg-black bg-opacity-50 p-2 rounded-full cursor-pointer z-10" onClick={onClick}>
+            <div className="absolute top-1/4 right-6 transform -translate-y-1/4 bg-black bg-opacity-50 p-2 rounded-full cursor-pointer z-10" onClick={onClick}>
                 <IoIosArrowForward className="text-white text-2xl" />
             </div>
         );
@@ -15,7 +15,7 @@ const Banner = () => {
 
     const PrevArrow = ({ onClick }) => {
         return (
-            <div className="absolute top-1/2 left-6 transform -translate-y-1/2 bg-black bg-opacity-50 p-2 rounded-full cursor-pointer z-10" onClick={onClick}>
+            <div className="absolute top-1/4 left-6 transform -translate-y-1/4 bg-black bg-opacity-50 p-2 rounded-full cursor-pointer z-10" onClick={onClick}>
                 <IoIosArrowBack className="text-white text-2xl" />
             </div>
         );

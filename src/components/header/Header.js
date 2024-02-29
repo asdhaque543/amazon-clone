@@ -9,7 +9,7 @@ import HeaderBottom from './HeaderBottom';
 const Header = () => {
   const [showAll, setShowAll] = useState(false);
   return (
-    <div className='w-full bg-amazon_blue'>
+    <div className='w-full sticky top-0 z-50'>
       <div className='w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4'>
         {/* ============= Image Start Here ============= */}
         <div className='headerHover'>
@@ -17,13 +17,13 @@ const Header = () => {
         </div>
         {/* ============= Image End Here ============= */}
         {/* ============= Deliver Start Here ============= */}
-        <div className='headerHover'>
+        <div className='headerHover hidden mdl:inline-flex'>
           <LocationOnOutlinedIcon />
           <p className='text-sm text-lightText font-normal font-bodyFont flex flex-col'>Deliver to {"Mohamed"}<span className='text-sm font-bold -mt-1 text-whiteTest'>Erode 638004</span></p>
         </div>
         {/* ============= Deliver End Here ============= */}
         {/* ============= Search Start Here ============= */}
-        <div className='h-10 rounded-md flex flex-grow relative'>
+        <div className='h-10 rounded-md hidden md:flex lgl:flex flex-grow relative'>
           <span onClick={() => setShowAll(!showAll)} className='w-14 h-full bg-gray-200 hover:bg-gray-300 border-2 cursor-pointer duration-300 text-sm text-amazon_blue font-titleFont flex items-center justify-center rounded-tl-md rounded-bl-md'>All <span><ArrowDropDownOutlinedIcon /></span></span>
           {
             showAll && (
@@ -52,22 +52,22 @@ const Header = () => {
         </div>
         {/* ============= Search End Here ============= */}
         {/* ============= 🏳️‍🌈EN Start Here ============= */}
-        <div className='flex items-center justify-center headerHover relative'>
+        <div className='text-xs sm:hidden items-center justify-center headerHover relative p-1'>
           <img src={indFlag} className='w-6' />
-          <p className='text-sm font-extrabold mt-1 pl-1 text-whiteTest'>
+          <p className='text-sm font-extrabold mt-2 pl-1 text-whiteTest'>
             EN<span className='text-xs mt-0.5 text-gray-400'><ArrowDropDownOutlinedIcon/></span>
           </p>
         </div>
         {/* ============= 🏳️‍⚧️EN End Here ============= */}
         {/* ============= Signin Start Here ============= */}
         <div className='flex flex-col items-start justify-center headerHover'>
-          <p className='text-xs text-white font-normal font-bodyFont'>Hello, sign in</p>
-          <p className='text-sm font-bold font-bodyFont -mt-1 text-whiteTest'>Accounts & Lists{" "}
+          <p className='text-sm mdl:text-xs text-white mdl:text-lightText font-medium font-bodyFont'>Hello, sign in</p>
+          <p className='text-sm font-bold font-bodyFont -mt-1 text-whiteTest hidden mdl:inline-flex'>Accounts & Lists{" "}
             <span className='text-xs text-gray-400'><ArrowDropDownOutlinedIcon /></span></p>
         </div>
         {/* ============= Signin End Here ============= */}
         {/* ============= Orders Start Here ============= */}
-        <div className='flex flex-col items-start justify-center headerHover'>
+        <div className='hidden lgl:flex flex-col items-start justify-center headerHover'>
           <p className='text-xs text-white font-normal font-bodyFont'>Returns</p>
           <p className='text-sm font-bold font-bodyFont -mt-1 text-whiteTest'>& Orders</p>
         </div>
@@ -87,3 +87,4 @@ const Header = () => {
 }
 
 export default Header
+
